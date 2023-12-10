@@ -6,11 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="icon" href="img/flowers.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
     <title>flowers</title>
   </head>
   <body class="container">
     <div class="night">
       <p style="color: white">Congratulations Sunshine</p>
+      <button
+        type="button"
+        class="btn btn-lg wiggle text-white"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop"
+        style="background: linear-gradient(45deg, #ce5b87, #fc913a)"
+      >
+        Click Me
+      </button>
+    </div>
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div
+          class="modal-content"
+          style="background: linear-gradient(45deg, #ce5b87, #fc913a)"
+        >
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Sunshine, congratulations on completing high school! Your journey so
+            far has been a tapestry woven with determination and brilliance, and
+            as you step into this new dawn, may your path continue to be painted
+            with the same warmth and vibrance. Here's to your radiant
+            achievement and the bright adventures awaiting you in the chapters
+            to come! 🎓☀️
+          </div>
+        </div>
+      </div>
     </div>
     <div class="flowers">
       <div class="flower flower--1">
